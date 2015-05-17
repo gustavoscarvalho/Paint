@@ -3,7 +3,7 @@ var concat = require("gulp-concat");
 
 gulp.task("JS - Concat",function(){
   return gulp.src([
-                    './js/modulos/*.js',
+                    './js/modulos/**/*.js',
                     './js/views/canvas.js'
                   ])
   .pipe(concat('app.js'))
