@@ -47,7 +47,7 @@ for(var i = 0; i < size; i++){
 				Tools.selectedTool = Tools[this.dataset.tools];
 
 			if(this.dataset.cursor != "")
-				canvas.style.cursor = this.dataset.cursor;
+				canvas.className = this.dataset.cursor;
 		}
   });
 }

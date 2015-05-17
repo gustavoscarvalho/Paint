@@ -35,3 +35,12 @@ body{
 .clearfloat{
   clear:both;
 }
+
+/* CURSOR */
+.crosshair {
+  cursor: url("../images/cursor/crosshair.png") 6 6,crosshair;
+}
+
+.move{
+  cursor: move;
+}
